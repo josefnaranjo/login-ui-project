@@ -3,18 +3,32 @@ body {
     display: flex;
     align-items: center;
 }
+/* Log-In Form */
 .login-container {
-    background-color: rgb(245, 41, 41);
-    height: 700px;
-    width: 550px;
     display: flex;
+    flex-direction: colum;
+    background-color: rgb(245, 41, 41);
+    height: 505px;
+    width: 800px;
     justify-content: center;
     align-items: center;
-    flex-direction: colum;
+    border: 1px solid black;
+}
+/*Form*/
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: azure;
+}
+.form h2 {
+    font-size: 3rem;
+    font-family: Crushed; font-size: 46px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 92px;
 }
 .field {
     display: flex;
-    background-color: whitesmoke;
+
 }
 #submit:hover {
     background-color:dimgray
