@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(73, 64, 64);
+    display: flex;
+    align-items: center;
+}
+.login-container {
+    background-color: rgb(245, 41, 41);
+    height: 700px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: colum;
+}
+.field {
+    display: flex;
+    background-color: whitesmoke;
+}
+#submit:hover {
+    background-color:dimgray
+}
