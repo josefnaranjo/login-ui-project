@@ -21,99 +21,22 @@ body {
     padding: 40px 35px 40px 35px;
     box-sizing: border-box;
     border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background: linear-gradient(45deg, rgb(187, 21, 21), rgb(99, 96, 96));
-    min-width: 50%;
-    min-height: 10%;
 }
-.text{
-    font-size: 25px;
+/*Form*/
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: azure;
+}
+.form h2 {
+    font-size: 3rem;
     font-family: Crushed; font-size: 46px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 92px;
 }
-
-/*Form*/
-form{
-    margin-top: 35px;
-}
-form .field{
-    margin-top: 10px;
+.field {
     display: flex;
-    justify-content: center;
-}
-.field input{
-    height: 40px;
-    width: 100%;
-    font-size: 18px;
-    padding: 0 15px;
-    text-align: left;
-    color: rgb(34, 33, 33);
-    background: linear-gradient(white, rgb(153, 139, 139));
-    border: 1px solid black;
-    border-radius: 5px;
-    animation: glow .9s ease-out infinite;
-}
-@keyframes glow{
-    0%{
-        border-color: azure;
-    }
-    50%{
-        border-color: darkgray;
-    }
-    100%{
-        border-color: red;
-    }
-}
-/*Buttons*/
-#button-in{
-    margin-top: 40px;
-    height: 40px;
-    width: 100%;
-    outline: none;
-    font-size: 18px;
-    padding: 0 15px;
-    border-radius: 5px;
-    text-align: center;
-    background: whitesmoke;
-}
-#button-up{
-    margin-top: 5px;
-    height: 40px;
-    width: 100%;
-    outline: none;
-    font-size: 18px;
-    padding: 0 15px;
-    border-radius: 5px;
-    text-align: center;
-    background: whitesmoke;
-}
-#button-in:hover {
-    cursor: pointer;
-    border: 1px solid limegreen;
-    background: linear-gradient(white, rgb(153, 139, 139));
-    box-shadow: 0 0 5px rgba(0,255,0,0.30), 
-                0 0 10px rgba(0,255,0,0.25),
-                0 0 15px rgba(0,255,0,0.15),
-                0 2px 0 black;
-}
-#button-up:hover {
-    cursor: pointer;
-    border: 1px solid crimson;
-    background: linear-gradient(white, rgb(153, 139, 139));
-    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3), 
-                0 0 10px rgba(255,0,0,0.25),
-                0 0 15px rgba(255,0,0,0.15),
-                0 2px 0 black;
-}
 
-/*Password Recovery*/
-.recover, .recover a{
-    display: flex;
-    align-items: baseline;
-    justify-content: end;
-    margin-top: 40px;
-    text-decoration: none;
-    color: black;
 }
 .recover a:hover{
     color: ghostwhite;
