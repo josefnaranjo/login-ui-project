@@ -4,7 +4,8 @@
 }
 body {
     display: flex;
-    background-color: rgb(73, 64, 64);
+    background: url(Cosmos.jpg);
+    /* background-color: rgb(73, 64, 64); */
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -14,22 +15,26 @@ body {
 
 /* Log-In Container */
 .login-container {
+    opacity: 0.55;
     position: relative;
     width: 350px;
     height: 600px;
-    background-color: rgb(245, 41, 41);
     padding: 40px 35px 40px 35px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background: linear-gradient(45deg, rgb(187, 21, 21), rgb(99, 96, 96));
+    background: linear-gradient(45deg, rgb(165, 10, 10), rgb(212, 207, 207), rgb(0, 0, 0));
     min-width: 25%;
     min-height: 10%;
 }
+.login-container:hover {
+    background: rgba(0, 0, 0, 0.15);
+    color: ghostwhite;
+}
 .text{
-    font-size: 25px;
-    font-family: Crushed; font-size: 46px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 92px;
+    font-size: 52px;
+    font-family: Crushed; font-size: 52px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 92px;
 }
 
 /* Form */
@@ -114,8 +119,8 @@ form .field{
     justify-content: end;
     margin-top: 40px;
     text-decoration: none;
-    color: black;
+    color: ghostwhite;
 }
 .recover a:hover{
-    color: ghostwhite;
+    color: crimson;
 }
