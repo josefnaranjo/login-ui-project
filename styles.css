@@ -15,7 +15,7 @@ body {
 
 /* Log-In Container */
 .login-container {
-    opacity: 0.55;
+    opacity: 0.5;
     position: relative;
     width: 350px;
     height: 600px;
@@ -115,9 +115,9 @@ form .field{
 /* Password Recovery */
 .recover, .recover a{
     display: flex;
-    align-items: baseline;
-    justify-content: end;
-    margin-top: 40px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
     text-decoration: none;
     color: ghostwhite;
 }
