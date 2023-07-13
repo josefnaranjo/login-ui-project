@@ -16,8 +16,6 @@ body {
 .login-container:hover {
     opacity: 0.8;
     position: relative;
-    width: 350px;
-    height: 600px;
     padding: 40px 35px 40px 35px;
     box-sizing: border-box;
     border: 1px solid black;
