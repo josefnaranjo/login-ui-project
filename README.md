@@ -1,7 +1,7 @@
-# login-ui-project
+#  Log-in UI App
 #  Bay Valley Tech
 #  Module 1
-# Jose F Naranjo
+#  Jose F Naranjo
 
 A log-in app created using HTML and stylized using external CSS.
 The requirements for this project were:
